@@ -1,0 +1,1 @@
+# android-btleplug-build-setup
