@@ -5,19 +5,20 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
     }
 }
 
+include ':jniutils'
+project(':jniutils').projectDir = new File('./jni-utils/java')
+
 include ':droidplug'
 project(':droidplug').projectDir = new File('./btleplug/src/droidplug/java')
-
-include ':jniutils'
-project(':jniutils').projectDir = new File('./gedgygedgy/jni-utils-rs/java')
 
 rootProject.name = "btletest"
 include ':app'
