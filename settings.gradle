@@ -12,5 +12,12 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+include ':droidplug'
+project(':droidplug').projectDir = new File('./btleplug/src/droidplug/java')
+
+include ':jniutils'
+project(':jniutils').projectDir = new File('./gedgygedgy/jni-utils-rs/java')
+
 rootProject.name = "btletest"
 include ':app'
