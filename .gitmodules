@@ -1,6 +1,6 @@
 [submodule "jni-utils"]
 	path = jni-utils
-	url = https://github.com/gedgygedgy/jni-utils-rs
+	url = https://github.com/waveywaves/jni-utils-rs
 [submodule "btleplug"]
 	path = btleplug
-	url = https://github.com/deviceplug/btleplug
+	url = https://github.com/waveywaves/btleplug
