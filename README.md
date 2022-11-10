@@ -1,3 +1,9 @@
 # Andorid + BTLEPlug setup
 
-Recursively clone this repo and build it.
+Clone the repo and build
+```
+git clone --recurse-submodules https://github.com/waveywaves/android-btleplug
+cd android-btleplug
+./gradlew build
+```
+
